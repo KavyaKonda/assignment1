@@ -98,7 +98,7 @@ class TestAnswer():
     def test_list_2D_last_row(self):
         TestAnswer.__total__ += 1
         A,last_row, a, b = answer.list_2D()
-        assert (last_row, == [12, 17, 38])
+        assert (last_row == [12, 17, 38])
         TestAnswer.__correct__ += 1
 
     def test_list_2D_a(self):
